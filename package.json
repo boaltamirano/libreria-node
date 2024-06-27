@@ -1,0 +1,34 @@
+{
+  "name": "tk-wibo-node",
+  "version": "1.0.6",
+  "type": "commonjs",
+  "main": "dist/main.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --config webpack.config.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "transbank-pos-sdk": "^3.0.2",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@types/node": "^20.14.9",
+    "babel-loader": "^9.1.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.2",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
